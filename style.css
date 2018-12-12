@@ -1,0 +1,56 @@
+body {
+	background-color: #010098;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0;
+}
+table, tr, td {
+	border: border-collapse;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #AA0100;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #646565;
+}
+
+.header {
+	background: transparent url(images/gmtopback.jpg) top left repeat-x;
+}
+
+.sidebar {
+	background: transparent url(images/gmsideback.jpg) top left repeat-y;
+}
+
+.bottom {
+	background: transparent url(images/gmbotback.jpg) top left repeat-x;
+}
+.contentBody, body.mceContentBody
+{
+	background-color: #FFFFFF;
+}
+.sectionHeader
+{
+	background: transparent url(images/headerback.gif) top left repeat-x;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 97%;
+}
+.sectionContent
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	width: 97%;
+}
+.sectionContent .accent
+{
+	color: #AA0100;
+	font-style: oblique;
+	font-weight: bold;
+}
